@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+// キーボード入力を行ってコンソールにログを出す
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    
+    void Update()
+    {
+        float x = Input.GetAxis("Horizontal");
+        Debug.Log(x);
+    }
+}
